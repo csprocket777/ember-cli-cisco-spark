@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-cisco-spark",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "This is an ember js component wrapper for the Cisco Spark Javascript NPM Module.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -41,6 +41,7 @@
     "ember-addon"
   ],
   "dependencies": {
+    "ciscospark": "^0.6.0",
     "ember-cli-babel": "^5.1.5"
   },
   "ember-addon": {
